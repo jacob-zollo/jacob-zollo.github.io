@@ -1,0 +1,78 @@
+/* 
+
+Project Name: Digital Portfolio 
+Client: Jacob Zollo
+Author: Jacob Zollo | /www.instagram.com/j_zo_lo
+Developed via One Month in DFW 
+
+*/
+
+body {
+	background: url('../images/crashing-waves.jpeg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container {
+	background: #dddddddd;
+	width: 680px;
+	color: black;
+	padding:  20px;
+	margin: auto;
+	width: 60%;
+	min-height: 140vh;
+	border: 5px solid #000000;
+	border-radius: 20px;
+	margin-top: 20px; 
+	margin-bottom: 20px;
+	position: relative;
+}
+
+#socials {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;;
+	font-size: 60px;
+	margin-top: 20px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	color: black;
+	text-decoration: underline;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;;
+	background: #008081;
+	color: black;
+	margin-top: 30px;
+	padding: 5px;
+	border-radius: 5px;
+	width: 250px;
+	text-align: center;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	text-indent: 30px;
+	font-size: 16px;
+	line-height: 140%;
+	margin-bottom: 40px;
+}
+a {
+	color: #008081;
+	text-decoration: none;
+}
+
